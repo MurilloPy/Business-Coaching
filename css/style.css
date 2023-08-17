@@ -11,3 +11,62 @@
     background-color: white;
 
 }
+
+header{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.hamburger{
+
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.camada{
+
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: black;
+
+}
+
+.menu{
+
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    top: 0px;
+    transition: 0.3s ease;
+    background-color: red;
+    z-index: 1;
+
+}
+
+.menu li{
+
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+#background-img{
+
+    position: absolute;
+
+}
