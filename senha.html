@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="senha.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <div class="options">
+      <label><input type="checkbox" id="uppercaseCheckbox">Incluir caracteres maiúsculos</label>
+      <label><input type="checkbox" id="lowercaseCheckbox">Incluir caracteres minúsculos</label>
+      <label><input type="checkbox" id="specialCharsCheckbox">Incluir caracteres especiais</label>
+      <label><input type="checkbox" id="numbersCheckbox">Incluir números</label>
+    </div>
+    <div class="length-options">
+      <label><input type="radio" name="length" value="10">10 caracteres</label>
+      <label><input type="radio" name="length" value="15">15 caracteres</label>
+      <label><input type="radio" name="length" value="20">20 caracteres</label>
+    </div>
+    <button id="generateButton">Gerar Senha</button>
+    <div class="generated-password" id="generatedPassword"></div>
+  </div>
+  <script src="senha.js"></script>
+</body>
+</html>
